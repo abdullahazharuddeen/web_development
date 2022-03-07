@@ -1,0 +1,47 @@
+
+.description
+{
+    align-items: center;
+    -moz-box-align: center;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 700px;
+    height: auto;
+    border-width: 5px;
+    border-style: double;
+    border-color:lightslategray;
+    background-color: lightblue;
+    font-size: medium;
+    color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.about
+{
+    font-size: x-large;
+    font-weight: bolder;
+
+}
+#bird
+{
+    display: inline-block;
+    text-align: center;
+    font-family: serif;
+    text-decoration: ghostwhite;
+    color:white;
+
+}
+.container
+{
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    background-color: wheat ;
+    display: inline-flex;
+    flex-flow: column-reverse;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}   
