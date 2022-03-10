@@ -1,0 +1,104 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#game{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    border: 1px solid black;
+    background-image:url(../images/Scene-11.jpg);
+    background-repeat: no-repeat;
+    
+}
+.gme
+{
+    color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: red;
+    width: 605px;
+}
+
+#character{
+    width: 20px;
+    height: 50px;
+    position: relative;
+    top: 530px;
+    
+}
+.animate{
+    animation: jump 500ms ;
+    
+}
+
+@keyframes jump{
+    0%{top: 500px;}
+    30%{top: 450px;}
+    70%{top:450px;}
+    100%{top:500px;}
+    
+}
+#block{
+    position: relative;
+    top: 370px;
+    left: 480px;
+    animation: block 1.5s infinite linear;
+}
+
+@keyframes block{
+    0%{left:1500px}
+    100%{left: -60px;}
+    
+}
+
+
+#coin{
+    position: relative;
+    top: 380px ;
+    left: 500px;
+    animation: coin 1.3s infinite linear ;
+}
+@keyframes coin {
+0%{left:1500px ;}
+100%{left:-50px ;}    
+}
+
+
+#ar{
+    position: relative;
+    top: 480px ;
+    left: 600px;
+    animation: ar 1.8s infinite linear ;
+}
+@keyframes ar {
+0%{left:1500px ;}
+100%{left:-70px ;}    
+}
+
+
+#diamond{
+    position: relative;
+    top: 460px ;
+    left: 880px;
+    animation: diamond 1.7s infinite linear ;
+}
+@keyframes diamond {
+0%{left:1300px ;}
+100%{left:-50px ;}    
+}
+
+ /* .container
+{
+    height: 300px;
+    width: 100%;
+}   */
+
+#display    
+{
+    width: 100%; 
+    font-size: 72px;
+    text-align: end;
+    margin: 0px auto;
+}   
