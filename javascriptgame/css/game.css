@@ -4,13 +4,25 @@
     padding: 0;
 }
 
+#GameOver
+{
+    
+    text-align: center;
+    background-size: cover;
+    height: fit-content;
+    
+
+
+}
+
 #game{
-    width: 100%;
-    height: 100vh;
+    
     background-size: cover;
     border: 1px solid black;
     background-image:url(../images/Scene-11.jpg);
     background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
     
 }
 .gme
@@ -60,6 +72,7 @@
     left: 500px;
     animation: coin 1.3s infinite linear ;
 }
+
 @keyframes coin {
 0%{left:1500px ;}
 100%{left:-50px ;}    
@@ -84,6 +97,7 @@
     left: 880px;
     animation: diamond 1.7s infinite linear ;
 }
+
 @keyframes diamond {
 0%{left:1300px ;}
 100%{left:-50px ;}    
@@ -97,8 +111,38 @@
 
 #display    
 {
+    color: green;
+    font-family: fantasy,cursive;
     width: 100%; 
     font-size: 72px;
     text-align: end;
     margin: 0px auto;
+    
 }   
+
+#score
+{
+    width: 100%; 
+    font-size: 72px;
+    text-align:start;
+    padding-left: 100px;
+    position:absolute;
+    top: 0px;
+    margin: 0px auto;
+    font-family: fantasy;
+    color: green;
+}
+
+#scoreSymbol
+{
+    position:absolute;
+    top: 0px;
+}
+
+/* .black
+{
+    position: absolute;
+    top: 0;
+    
+
+} */
